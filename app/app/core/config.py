@@ -86,7 +86,7 @@ class Settings(BaseSettings):
         )
 
     EMAIL_TEST_USER: EmailStr = "test@example.com"  # type: ignore"""
-    FIRST_SUPERUSER: EmailStr = "max@deintv.de"
+    FIRST_SUPERUSER: EmailStr = "dbuser@re-gister.com"
     FIRST_SUPERUSER_PASSWORD: str = "123456"
     USERS_OPEN_REGISTRATION: bool = False
 
